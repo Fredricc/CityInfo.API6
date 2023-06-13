@@ -2,7 +2,7 @@
 
 namespace CityInfo.API.Controllers
 {
-    public class CitiesInfoController : Controller
+    public class CitiesInfoController : ControllerBase
     {
         public IActionResult Index()
         {
